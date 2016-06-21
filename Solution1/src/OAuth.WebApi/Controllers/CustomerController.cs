@@ -18,7 +18,7 @@ namespace OAuth.WebApi.Controllers
                                  {
                                      new Customer { Id = 1, Name = "Amitabh" },
                                      new Customer { Id = 2, Name = "Shahrukh" },
-                                     new Customer { Id = 1, Name = "Aamir" }
+                                     new Customer { Id = 3, Name = "Aamir" }
                                  };
 
         }

@@ -67,11 +67,11 @@ namespace OAuth.WebApi
         {
             this.Clients.Add(new Client
                                  {
-                                     Id = "AAE-ThickClient", // client token
+                                     Id = "AAE-ThickClient", 
                                      Secret = Helper.GetHash("123@abc"), //node lock id
                                      ApplicationType = "Native",
                                      Active = true,
-                                     RefreshTokenLifeTime = 100,
+                                     RefreshTokenLifeTime = 14400,
                                      AllowedOrigin = "*"
                                  });
         }
